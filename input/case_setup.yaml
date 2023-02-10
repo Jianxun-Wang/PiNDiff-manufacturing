@@ -1,0 +1,29 @@
+---
+seed:           100
+nx:             30        #'no of grid points along x-direction'
+ny:             30        #'no of grid points along y-direction'
+lx:             [0,0.25]  #'x-cordinate at start and end of the laminate'
+ly:             [0,0.25]  #'y-cordinate at start and end of the laminate'
+dt:             10        #'time step in sec'
+device:         cpu       #'device on which to run'
+set_num_threads:  4
+
+target_sparsedata: -1   # uniform distribution:nxn(-n), centre(-1), fraction(0>fr>1), or random number(1>=no.) of data for training
+
+save_model_depoch: 100
+plot_train_depoch: 10
+
+
+# Properties
+volFrRes:       0.4009  #'Volume Fraction of Resin/Matrix')
+volFrFib:       0.5991  #'Volume Fraction of Fiber')
+kRes:           0.167   #'Thermal Conductivity of Resin/Matrix [W/mK]')
+kFib:           5.4     #'Thermal Conductivity of Fiber [W/mK]')
+rhoCom:         1591.6  #'Density of Composit [kg/m^3]')
+rhoRes:         1310    #'Density of Resin/Matrix [kg/m^3]')
+rhoFib:         1780    #'Density of Fiber [kg/m^3]')
+Hrxn:           400000  #'Heat of phase transformation [J/kg]')
+CspCom:         1260    #'Specific heat of composit [J/Kg/K]')
+
+
+...
