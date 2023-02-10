@@ -43,7 +43,11 @@ Open an issue on the Github repository if you have any questions/concerns.
 
 ## Acknowledgments
 
-We would like to acknowledge the contributions of [Any contributors or funding sources here]. This work was supported by [Any funding sources or grants here].
+We would like to acknowledge the funds from the Air Force Office of Scientific Research (AFOSR),
+United States of America under award number FA9550-22-1-0065. JXW would also like to acknowledge the funding
+support from National Science Foundation, United States of America under award numbers CMMI-1934300 and
+OAC-2047127, and startup funds from the College of Engineering at University of Notre Dame in supporting this
+study
 
 ## Citation
 
